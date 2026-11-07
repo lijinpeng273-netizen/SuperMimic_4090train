@@ -1,0 +1,24 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+/logs/
+/data/
+wandb/
+*.npz
+*.pt
+*.onnx
+.pytest_cache/
+.ruff_cache/
+experiments/**/outputs/
+
+# Local assistant configuration and credentials
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+!.env.example
